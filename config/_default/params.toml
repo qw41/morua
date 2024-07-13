@@ -47,7 +47,7 @@ link = "contact"
 # contact info
 [contact_info]
 address = "9567 Turner Trace Apt. BC C3G8A4"
-email = "info@companyname.com"
+email = "example-change@gmail.com"
 mobile = "+211234565523"
 
 # Subscription
