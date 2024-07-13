@@ -48,9 +48,9 @@ weight = 3
 
 # footer menu
 [[footer]]
-name = "Legal"
-url = "#"
-weight = 1
+# name = "Legal"
+# url = "#"
+# weight = 1
 
 [[footer]]
 name = "Sitemap"
@@ -58,11 +58,11 @@ url = "#"
 weight = 2
 
 [[footer]]
-name = "Privacy Policy"
-url = "#"
-weight = 3
+# name = "Privacy Policy"
+# url = "#"
+# weight = 3
 
 [[footer]]
-name = "Terms & Conditions"
-url = "#"
-weight = 4
+# name = "Terms & Conditions"
+# url = "#"
+# weight = 4
