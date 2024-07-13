@@ -173,42 +173,6 @@
 {{ partial "components/mission.html" . }}
 {{ end }}
 
-{{ with .Params.promo_video }}
-{{ if .enable }}
-{{ "<!-- promo-video -->" | safeHTML }}
-<section class="promo-video overlay section" {{ partial `bg-image.html` (dict `Src` .bg_image ) | safeHTMLAttr }}>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<h1 class="text-white mb-20 fw-normal">{{ .title |safeHTML }}</h1>
-				<div class="d-flex">
-					<button type="button" data-bs-toggle="modal" data-bs-target="#videoModal" class="play-icon me-4" video-url="{{.video_URL}}" aria-label="video play button">
-						<i class="ti-control-play"></i>
-					</button>
-					<p class="text-white align-self-center h4">{{ .video_title | markdownify }}</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<div class="modal fade" id="videoModal">
-	<div class="modal-dialog modal-dialog-centered modal-lg">
-		<div class="modal-content rounded-0">
-			<div class="modal-body rounded-0 p-0">
-				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-					<i class="ti-close"></i>
-				</button>
-				<div class="ratio ratio-16x9">
-					<iframe allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-{{ "<!-- /promo-video -->" | safeHTML }}
-{{ end }}
-{{ end }}
-
 {{ with .Params.call_to_action }}
 {{ if .enable }}
 {{ "<!-- cta -->" | safeHTML }}
