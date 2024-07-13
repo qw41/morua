@@ -52,7 +52,7 @@ mobile = "+211234565523"
 
 # Subscription
 [subscription] 
-enable = true
+enable = false
 # subscribe
 title = "Subscribe Us"
 content = "Lorem ipsum dolor sit amet, consect etur adipisicing. elit sed do eiusmod."
