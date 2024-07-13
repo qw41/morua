@@ -11,7 +11,7 @@ logo_width = "110px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = false
 # logo text will only show when logo is missing.
-logo_text = "Biztrox"
+logo_text = "Morua Bros Fabrication"
 # purgeCSS
 purge_css = true
 # Main Sections
