@@ -209,10 +209,6 @@
 {{ end }}
 {{ end }}
 
-{{ if .Params.testimonial.enable }}
-{{ partial "components/testimonial.html" . }}
-{{ end }}
-
 {{ with .Params.call_to_action }}
 {{ if .enable }}
 {{ "<!-- cta -->" | safeHTML }}
