@@ -116,27 +116,27 @@ enable = false
 expire_days = 2
 
 ############################# social site ########################
-[[social]]
-icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-link = "#" 
-title = "facebook" 
+#[[social]]
+#icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+#link = "#" 
+#title = "facebook" 
 
-[[social]]
-icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-link = "#" 
-title = "twitter"  
+#[[social]]
+#icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+#link = "#" 
+#title = "twitter"  
 
-[[social]]
-icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
-link = "#" 
-title = "instagram" 
+#[[social]]
+#icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
+#link = "#" 
+#title = "instagram" 
 
-[[social]]
-icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
-link = "#" 
-title = "github" 
+#[[social]]
+#icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
+#link = "#" 
+#title = "github" 
 
-[[social]]
-icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "#" 
-title = "linkedin"
+#[[social]]
+#icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+#link = "#" 
+#title = "linkedin"
