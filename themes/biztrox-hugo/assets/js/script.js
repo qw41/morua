@@ -13,29 +13,6 @@
 	// Sliders
 	// ---------------------------- 
 
-	// Hero Slider
-	new Swiper('.hero-slider', {
-		slidesPerView: 1,
-		loop: true,
-		centeredSlides: true,
-		autoplay: {
-			delay: 10000,
-		},
-		navigation: {
-			nextEl: '.swiper-navigation .nextArrow',
-			prevEl: '.swiper-navigation .prevArrow',
-		},
-		pagination: {
-			el: '.hero-slider .swiper-pagination',
-			clickable: true,
-			renderBullet: function (index, className) {
-				let icon = document.querySelectorAll('.hero-slider .swiper-slide')[index + 1].getAttribute('data-icon');
-				let text = document.querySelectorAll('.hero-slider .swiper-slide')[index + 1].getAttribute('data-text');
-				return '<li class="' + className + '"><a href="#?"><i class="' + icon + '"></i><span>' + text + '</span></a></li>';
-			},
-		},
-	});
-
 	// Work Slider
 	new Swiper('.work-slider', {
 		slidesPerView: 4,

@@ -6,9 +6,9 @@ slider:
   # slider item loop
   - bg_image : images/banner/banner-1.jpg
     animation_from : left
-    subtitle : We are here to
-    title : Planning Business
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+    subtitle :
+    title : Morua Bros.
+    content : Your Metal Fabrication Supplier of Choice <br> in The Greater Houston Area
     pagination_icon : ti-comments # themify icon pack : https://themify.me/themify-icons
     pagination_name : Consultation
     button:
@@ -17,49 +17,49 @@ slider:
       link : "about/"
       
   # slider item loop
-  - bg_image : images/banner/banner-2.jpg
-    animation_from : up
-    subtitle : Get your
-    title : Business Consultant
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
-    pagination_icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
-    pagination_name : Marketing
-    button:
-      enable : true
-      label: More details
-      link : "about/"
+  #- bg_image : images/banner/banner-2.jpg
+  #  animation_from : up
+  #  subtitle : Get your
+  #  title : Business Consultant
+  #  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+  #  pagination_icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
+  #  pagination_name : Marketing
+  #  button:
+  #    enable : true
+  #    label: More details
+  #    link : "about/"
       
   # slider item loop
-  - bg_image : images/banner/banner-3.jpg
-    animation_from : down
-    subtitle : Start your
-    title : Future Plan
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
-    pagination_icon : ti-money # themify icon pack : https://themify.me/themify-icons
-    pagination_name : Finance
-    button:
-      enable : true
-      label: More details
-      link : "about/"
+  #- bg_image : images/banner/banner-3.jpg
+  #  animation_from : down
+  #  subtitle : Start your
+  #  title : Future Plan
+  #  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+   # pagination_icon : ti-money # themify icon pack : https://themify.me/themify-icons
+   # pagination_name : Finance
+   # button:
+   #   enable : true
+   #   label: More details
+   #   link : "about/"
       
   # slider item loop
-  - bg_image : images/banner/banner-4.jpg
-    animation_from : right
-    subtitle : We are always
-    title : Be Inspired By Best
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
-    pagination_icon : ti-package # themify icon pack : https://themify.me/themify-icons
-    pagination_name : Human Resources
-    button:
-      enable : true
-      label: More details
-      link : "about/"
+  #- bg_image : images/banner/banner-4.jpg
+  #  animation_from : right
+  #  subtitle : We are always
+  #  title : Be Inspired By Best
+  #  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+  #  pagination_icon : ti-package # themify icon pack : https://themify.me/themify-icons
+  #  pagination_name : Human Resources
+  #  button:
+  #    enable : true
+  #    label: More details
+  #    link : "about/"
 
 ########################################## Service ####################################
 service:
   enable : true
-  title: "Service We Provide"
-  subtitle: "Best Service"
+  title: "Services We Provide"
+  subtitle: "Metal Fabrication"
   section: "service" # showing items from service section
   # service item comes from "content/service" folder
 
@@ -172,7 +172,7 @@ testimonial:
 call_to_action:
   enable : true
   bg_image : "images/background/cta.jpg"
-  title : "Biztrox give the smart solution for your business"
+  title : "Contact Us Today For a Free Quote"
   button:
     enable : true
     label : "get a quote"

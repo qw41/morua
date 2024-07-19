@@ -284,6 +284,7 @@ ul.tag-list {
       background-position: center center;
       background-size: cover;
       outline: 0;
+      
     }
 
     .prevArrow,
@@ -392,6 +393,7 @@ ul.tag-list {
             line-height: 80px;
             margin-right: 15px;
             vertical-align: middle;
+
 
             @include desktop {
               font-size: 20px;
